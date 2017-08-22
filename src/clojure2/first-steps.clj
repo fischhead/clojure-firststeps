@@ -57,4 +57,5 @@
     [^Character my-char]
     (get encoding (index-of alphabet my-char))
     )
+  ; here is a little test
   (rot13 "hello")
