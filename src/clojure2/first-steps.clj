@@ -26,7 +26,6 @@
   "Encodes a single character in rot13 fashion"
   [the-char]
   (get encoding (index-of alphabet the-char))
-  RuntimeException EOF while reading, starting at line 1  clojure.lang.Util.runtimeException (Util.java:221)
   (defn
     "Encodes a single character in rot13 fashion"
     [the-char]
@@ -37,7 +36,6 @@
     [my-char]
     (get encoding (index-of alphabet my-char))
     )
-  IllegalArgumentException First argument to defn must be a symbol  clojure.core/defn--4387 (core.clj:294)
   (defn encode-char
     "Encodes a single character in rot13 fashion"
     [my-char]
